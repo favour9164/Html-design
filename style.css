@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(16, 16, 79);
+    color: white;
+}
+.image{
+    background-color: black;
+}
+
+.form{
+    background-color: blue;
+}
+ul .hex{
+    background-color: blueviolet;
+}
+.color{
+    background-color: rgb(14, 37, 46);
+}
