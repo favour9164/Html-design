@@ -1,0 +1,114 @@
+*{
+    margin: 0px;;
+    padding: 5px;;
+    box-sizing: border-box;
+    background-color: rgb(5, 5, 43);
+    color:rgb(208, 181, 181);
+}
+
+.Ixartz ,.add ,.dolor, .project1 ,.posts ,.news{
+    color:rgb(16, 166, 221);
+    text-align: center;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    margin-right: 30px;
+}
+.para-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 500px;
+    padding: 0px;
+}
+
+.image{
+    text-align: right;
+    margin-top: 100px;
+}
+
+.top {
+    list-style: none;
+
+}
+/* .view{
+    text-align: center;
+    list-style: none;
+} */
+.alt{
+    text-align:end;
+}
+
+.button1{
+    color: rgb(32, 220, 32);
+    background-color: rgb(12, 75, 12);
+}
+
+.button2{
+    color: rgb(231, 8, 8);
+    background-color: rgb(48, 6, 6);
+}
+
+.button3{
+    color:rgb(137, 38, 231);
+    background-color:rgb(65, 12, 65)
+    
+}
+
+.view{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+.web ,.Awesome ,.design{
+    border-right: 30px;
+    display: flex;
+
+}
+.view1{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.all{
+    text-align: center;
+    margin-left: 100px;
+    display: contents;
+    list-style: none;
+    gap: 450px;
+}
+
+input{
+    height: 40%;
+    gap: 50px;
+    width: 50%;
+}
+.pgn{
+    display: block;
+}
+.heading-container{
+    margin-top: 20px 0px;
+}
+.west{
+    
+}
+
+
+
