@@ -258,11 +258,12 @@ p{
    font-style: normal;
    font-family: cursive;
 }
-h2{
+h2, a{
     font-size:x-large;
    font-style: normal;
    font-family: cursive;
    text-transform: capitalize;
+   text-decoration: none;
 }
 h1{
    font-size:x-large;
