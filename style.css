@@ -30,11 +30,17 @@ nav li a{
     padding: 10px;
     margin: 0px 20px;
     color: white;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 .containerpara {
     justify-content: space-between;
     display: flex;
     margin-top: 20px;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 .man{
     text-align: start;
@@ -47,7 +53,7 @@ nav li a{
     margin:25px 0px;
     align-items: center;
 }
-.icon-container svg{
+.icon-container svg .container-icon svg{
     width: 50px;
     margin: 0px 10px;
     align-items: center;
@@ -56,6 +62,9 @@ nav li a{
 }
 .containerpara p{
     margin:25px 0px ;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 .Project1{
     display: flex;
@@ -67,6 +76,10 @@ nav li a{
     width: 100%;
     height: 50%;
     line-height: 2rem;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
+   padding: 30px 30px;
 }
 .project2{
    display: flex;
@@ -78,6 +91,10 @@ nav li a{
    margin-top: 50px;
    gap: 40px;
    line-height: 2rem;
+   font-size: medium;
+   font-style: normal;
+   font-family: cursive;
+   padding: 30px 30px;
 }
 .project3{
    display: flex;
@@ -87,8 +104,12 @@ nav li a{
    width: 100%;
    height: 60%;
    margin-top: 50px;
-   gap: 40px;
+   gap: 80px;
    line-height: 2rem;
+   font-size: medium;
+   font-style: normal;
+   font-family: cursive;
+   padding: 30px 30px;
 }
 .posts{
     display: flex;
@@ -96,7 +117,9 @@ nav li a{
     gap: 100px;
     justify-content: space-between;
     padding: 50px 50px;
-    font-size: large;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 /* .man .jklo .ami{
     display: flex;
@@ -108,43 +131,49 @@ nav li a{
     
 }
 .rule{
-    width: 51vh;
+    width: 50vh;
     background-color: rgba(225, 255, 255, 0.046);
     height:70vh;
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius:20px;
-   line-height: 2rem;
-   align-items: center;
-   margin-left: 20px; 
-}
-.jklo{
-    width: 51vh;
-    background-color: rgba(225, 255, 255, 0.046);
-    height:70vh;
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius:20px;
-   line-height: 2rem;
-   align-items: center;
-   margin-left: 20px; 
-}
-.ami{
-    width: 56vh;
-    background-color: rgba(225, 255, 255, 0.046);
-    height:70vh;
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius:20px;
+   border-radius: 20px;
    line-height: 2rem;
    align-items: center;
    margin-left: 20px;
-   padding: 20px 10px; 
+   font-size: medium;
+   font-style: normal;
+   font-family: cursive; 
 }
-.text3 .text2 .text1{
-    text-align: center;
-    width: 50%;
+.jklo{
+    width: 50vh;
+    background-color: rgba(225, 255, 255, 0.046);
+    height:70vh;
+   border-radius: 20px;
+   line-height: 2rem;
+   align-items: center;
+   margin-left: 20px;
+   font-size: medium;
+   font-style: normal;
+   font-family: cursive; 
+}
+.ami{
+    width: 50vh;
+    background-color: rgba(225, 255, 255, 0.046);
+    height:70vh;
+   border-radius: 20px;
+   line-height: 2rem;
+   align-items: center;
+   margin-left: 20px;
+   padding-left: 0px;
+   font-size: medium;
+   font-style: normal;
+   font-family: cursive;
+   align-items: center;
 }
 .Newsletter{
     display: flex;
     gap: 150px;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 .form{
    display: flex;
@@ -175,7 +204,8 @@ nav li a{
 } 
 .news ,.post , .project , .favour , .consequatur , .necessitatibus{
   color:#00c6ff 
-} 
+}
+
 .container{
     margin: 50px 50px;
     line-height: 2rem;
@@ -183,10 +213,16 @@ nav li a{
 } 
 .footer{
     padding-top: 50px;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 }
 .all{
     padding: 60px 0px;
     text-align: start;
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
 } 
 .Awesome{
     background-color: rgb(8, 8, 90);
@@ -209,7 +245,37 @@ nav li a{
     background-color: rgb(11, 59, 11);
     border: none;
 }
-.container-icon{
-    text-align: end;
+.image a{
+    text-decoration: none;
+}
+.copy{
+font-size: medium;
+font-style: normal;
+font-family: cursive;  
+}
+p{
+    font-size: medium;
+   font-style: normal;
+   font-family: cursive;
+}
+h2{
+    font-size:x-large;
+   font-style: normal;
+   font-family: cursive;
+   text-transform: capitalize;
+}
+h1{
+   font-size:x-large;
+   font-style: normal;
+   font-family: cursive;
+   text-transform: capitalize; 
+}
+.text1, .text2 , .text3{
+    text-align: center;
+    position: relative;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
 }
 
